@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,60 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MAr-4L-mi4" customClass="ResortTabelView">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="MAr-4L-mi4" secondAttribute="trailing" id="3EF-nu-eIg"/>
+                            <constraint firstItem="MAr-4L-mi4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="YY4-Ra-Cjh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MAr-4L-mi4" secondAttribute="bottom" id="qBz-Mf-EA9"/>
+                            <constraint firstItem="MAr-4L-mi4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qoA-1f-c6w"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resortTableView" destination="MAr-4L-mi4" id="qbX-aH-qhG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Record View Controller-->
+        <scene sceneID="AXR-Dz-m7w">
+            <objects>
+                <viewController id="RZF-DJ-heI" customClass="RecordViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FRs-JJ-MQe"/>
+                        <viewControllerLayoutGuide type="bottom" id="ne4-pF-z2P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kps-Xf-cUE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Rt-3K-FGb">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="RZF-DJ-heI" eventType="touchUpInside" id="exV-Uw-IWk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Rt-3K-FGb" firstAttribute="centerX" secondItem="kps-Xf-cUE" secondAttribute="centerX" id="3rW-7M-CR4"/>
+                            <constraint firstItem="4Rt-3K-FGb" firstAttribute="centerY" secondItem="kps-Xf-cUE" secondAttribute="centerY" id="L3X-jj-g2n"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn" destination="4Rt-3K-FGb" id="J9v-qj-1BX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uqt-PA-IeM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="210"/>
         </scene>
     </scenes>
 </document>

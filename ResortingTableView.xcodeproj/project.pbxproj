@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F634E551D6469C100EB7840 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F634E541D6469C100EB7840 /* RecordViewController.m */; };
+		1F634E581D646A2600EB7840 /* TTRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F634E571D646A2600EB7840 /* TTRecordView.m */; };
+		1F634E5A1D646A5300EB7840 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F634E591D646A5300EB7840 /* AVFoundation.framework */; };
+		1F634E5C1D646A5B00EB7840 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F634E5B1D646A5B00EB7840 /* AudioToolbox.framework */; };
 		1F65A50E1D62ED1C00DB2A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65A50D1D62ED1C00DB2A0E /* main.m */; };
 		1F65A5111D62ED1C00DB2A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65A5101D62ED1C00DB2A0E /* AppDelegate.m */; };
 		1F65A5141D62ED1C00DB2A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65A5131D62ED1C00DB2A0E /* ViewController.m */; };
 		1F65A5171D62ED1C00DB2A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F65A5151D62ED1C00DB2A0E /* Main.storyboard */; };
 		1F65A5191D62ED1C00DB2A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F65A5181D62ED1C00DB2A0E /* Assets.xcassets */; };
 		1F65A51C1D62ED1C00DB2A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F65A51A1D62ED1C00DB2A0E /* LaunchScreen.storyboard */; };
+		1F65A5251D62EEBE00DB2A0E /* ResortTabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65A5241D62EEBE00DB2A0E /* ResortTabelView.m */; };
+		1F65A5281D62EF4F00DB2A0E /* ResortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65A5271D62EF4F00DB2A0E /* ResortModel.m */; };
+		1F65A52C1D62EF6600DB2A0E /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65A52A1D62EF6600DB2A0E /* ArticleTableViewCell.m */; };
+		1F65A52D1D62EF6600DB2A0E /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F65A52B1D62EF6600DB2A0E /* ArticleTableViewCell.xib */; };
+		1F65A5311D62EF7000DB2A0E /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65A52F1D62EF7000DB2A0E /* ImageTableViewCell.m */; };
+		1F65A5321D62EF7000DB2A0E /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F65A5301D62EF7000DB2A0E /* ImageTableViewCell.xib */; };
+		1F65A5341D62F61400DB2A0E /* IMG_0668.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1F65A5331D62F61400DB2A0E /* IMG_0668.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F634E531D6469C100EB7840 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		1F634E541D6469C100EB7840 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		1F634E561D646A2600EB7840 /* TTRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRecordView.h; sourceTree = "<group>"; };
+		1F634E571D646A2600EB7840 /* TTRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRecordView.m; sourceTree = "<group>"; };
+		1F634E591D646A5300EB7840 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1F634E5B1D646A5B00EB7840 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1F65A5091D62ED1C00DB2A0E /* ResortingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResortingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F65A50D1D62ED1C00DB2A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F65A50F1D62ED1C00DB2A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +43,17 @@
 		1F65A5181D62ED1C00DB2A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F65A51B1D62ED1C00DB2A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F65A51D1D62ED1C00DB2A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F65A5231D62EEBE00DB2A0E /* ResortTabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResortTabelView.h; sourceTree = "<group>"; };
+		1F65A5241D62EEBE00DB2A0E /* ResortTabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResortTabelView.m; sourceTree = "<group>"; };
+		1F65A5261D62EF4F00DB2A0E /* ResortModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResortModel.h; sourceTree = "<group>"; };
+		1F65A5271D62EF4F00DB2A0E /* ResortModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResortModel.m; sourceTree = "<group>"; };
+		1F65A5291D62EF6600DB2A0E /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewCell.h; sourceTree = "<group>"; };
+		1F65A52A1D62EF6600DB2A0E /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewCell.m; sourceTree = "<group>"; };
+		1F65A52B1D62EF6600DB2A0E /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		1F65A52E1D62EF7000DB2A0E /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		1F65A52F1D62EF7000DB2A0E /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		1F65A5301D62EF7000DB2A0E /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		1F65A5331D62F61400DB2A0E /* IMG_0668.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0668.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F634E5C1D646A5B00EB7840 /* AudioToolbox.framework in Frameworks */,
+				1F634E5A1D646A5300EB7840 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,8 @@
 		1F65A5001D62ED1C00DB2A0E = {
 			isa = PBXGroup;
 			children = (
+				1F634E5B1D646A5B00EB7840 /* AudioToolbox.framework */,
+				1F634E591D646A5300EB7840 /* AVFoundation.framework */,
 				1F65A50B1D62ED1C00DB2A0E /* ResortingTableView */,
 				1F65A50A1D62ED1C00DB2A0E /* Products */,
 			);
@@ -62,7 +94,22 @@
 				1F65A5101D62ED1C00DB2A0E /* AppDelegate.m */,
 				1F65A5121D62ED1C00DB2A0E /* ViewController.h */,
 				1F65A5131D62ED1C00DB2A0E /* ViewController.m */,
+				1F65A5231D62EEBE00DB2A0E /* ResortTabelView.h */,
+				1F65A5241D62EEBE00DB2A0E /* ResortTabelView.m */,
+				1F634E531D6469C100EB7840 /* RecordViewController.h */,
+				1F634E541D6469C100EB7840 /* RecordViewController.m */,
+				1F634E561D646A2600EB7840 /* TTRecordView.h */,
+				1F634E571D646A2600EB7840 /* TTRecordView.m */,
+				1F65A5261D62EF4F00DB2A0E /* ResortModel.h */,
+				1F65A5271D62EF4F00DB2A0E /* ResortModel.m */,
+				1F65A5291D62EF6600DB2A0E /* ArticleTableViewCell.h */,
+				1F65A52A1D62EF6600DB2A0E /* ArticleTableViewCell.m */,
+				1F65A52B1D62EF6600DB2A0E /* ArticleTableViewCell.xib */,
+				1F65A52E1D62EF7000DB2A0E /* ImageTableViewCell.h */,
+				1F65A52F1D62EF7000DB2A0E /* ImageTableViewCell.m */,
+				1F65A5301D62EF7000DB2A0E /* ImageTableViewCell.xib */,
 				1F65A5151D62ED1C00DB2A0E /* Main.storyboard */,
+				1F65A5331D62F61400DB2A0E /* IMG_0668.JPG */,
 				1F65A5181D62ED1C00DB2A0E /* Assets.xcassets */,
 				1F65A51A1D62ED1C00DB2A0E /* LaunchScreen.storyboard */,
 				1F65A51D1D62ED1C00DB2A0E /* Info.plist */,
@@ -137,7 +184,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F65A5321D62EF7000DB2A0E /* ImageTableViewCell.xib in Resources */,
+				1F65A52D1D62EF6600DB2A0E /* ArticleTableViewCell.xib in Resources */,
 				1F65A51C1D62ED1C00DB2A0E /* LaunchScreen.storyboard in Resources */,
+				1F65A5341D62F61400DB2A0E /* IMG_0668.JPG in Resources */,
 				1F65A5191D62ED1C00DB2A0E /* Assets.xcassets in Resources */,
 				1F65A5171D62ED1C00DB2A0E /* Main.storyboard in Resources */,
 			);
@@ -151,8 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F65A5141D62ED1C00DB2A0E /* ViewController.m in Sources */,
+				1F65A5311D62EF7000DB2A0E /* ImageTableViewCell.m in Sources */,
 				1F65A5111D62ED1C00DB2A0E /* AppDelegate.m in Sources */,
+				1F65A5281D62EF4F00DB2A0E /* ResortModel.m in Sources */,
+				1F634E581D646A2600EB7840 /* TTRecordView.m in Sources */,
+				1F65A5251D62EEBE00DB2A0E /* ResortTabelView.m in Sources */,
+				1F65A52C1D62EF6600DB2A0E /* ArticleTableViewCell.m in Sources */,
 				1F65A50E1D62ED1C00DB2A0E /* main.m in Sources */,
+				1F634E551D6469C100EB7840 /* RecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +357,7 @@
 				1F65A5221D62ED1C00DB2A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
